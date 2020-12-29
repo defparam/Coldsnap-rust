@@ -487,7 +487,7 @@ impl Target {
 			ptrace::setregs(pid, regs).expect("Unable to set register state");
 			
 			// Are we at the startaddr? no? then continue the loop
-			if regs.rip-1 != self.startaddr {
+			if regs.rip != self.startaddr {
 				continue;
 			}
 			
