@@ -2,7 +2,7 @@
 
 Welcome to coldsnap! This example was inspired by @gamozolabs love for snapshot fuzzing and based on @h0mbre_ blog [Fuzzing Like A Caveman 4](https://h0mbre.github.io/Fuzzing-Like-A-Caveman-4/)
 
-This example is a 1-to-1 port of https://github.com/defparam/Coldsnap , Please read the README.md of the original Coldsnap repo to get an idea of what this example does.
+This example is a 1-to-1 port of https://github.com/defparam/Coldsnap into Rustlang, Please read the README.md of the original Coldsnap repo to get an idea of what this example does.
 
 ## Python3 vs Rust
 These benchmark compared Coldsnap-python to Coldsnap-rust both running on an AWS T2.micro instance (single thread/core) against the same target.
