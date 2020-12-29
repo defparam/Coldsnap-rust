@@ -8,7 +8,7 @@
 //! a 1-to-1 port of my snapshot fuzzer written in python
 
 fn main() {
-    println!("coldsnap - A rust-based snapshot-based ptrace-based fuzzer example");
+        println!("coldsnap - A rust-based snapshot-based ptrace-based fuzzer example");
 	println!("Author   - @defparam (Evan Custodio)\n");
 
 	// First We fork our target
