@@ -1,0 +1,13 @@
+[package]
+name = "coldsnap"
+version = "0.1.0"
+authors = ["defparam <defparam>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+spawn-ptrace = "0.1.2"
+nix = "0.19.1"
+rand = "0.7.2"
+libc = "0.2.81"
