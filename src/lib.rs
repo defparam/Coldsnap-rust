@@ -174,7 +174,7 @@ pub struct Snapshot {
 	permissions: String,
 	offset: u64,
 	device: String,
-	inode: u32,
+	inode: u64,
 	name: String,
 	localsave: Vec<u8>,
 	writable: bool
@@ -260,7 +260,7 @@ impl SnapshotManager {
 			let permissions = columns[1];
 			let offset: u64 = u64::from_str_radix(columns[2],16).expect("Issue parsing map offset");
 			let device = columns[3];
-			let inode: u32 = columns[4].parse().expect("Issue parsing map inode");
+			let inode: u64 = columns[4].parse().expect("Issue parsing map inode");
 			let name = if columns.len() < 6 {
 				""
 			} else {
